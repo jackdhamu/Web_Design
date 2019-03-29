@@ -1,0 +1,126 @@
+.container
+{
+    width: 840px;
+    height: 680px;
+    background-color: #c3c5d7;
+    margin: 40px auto;
+    overflow: hidden;
+}
+.screen-view
+{
+     padding: 50px;     
+}
+.screens
+{
+    width: 340px;
+    height: 700px;
+    background-color:#f7f8fa;
+    margin: 2px;
+
+    border: 10px solid white;
+    border-radius: 40px;
+    outline-width: 2px;    
+}
+.screens-master
+{
+    width: 363px;
+    height: 720px;
+    background-color:#c3c5d7;
+    margin:  15px;   
+    border: 4px solid white;
+    border-radius: 46px; 
+    box-shadow: 2px 10px 15px rgb(0,0,0,0.2);
+}
+
+
+h1,h2,h3
+{
+    color:#4c4c4c;
+    font-family:"Arial",sans-serif;
+}
+h2
+{
+    margin: 1px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+h3
+{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    opacity: 0.8;
+}
+.head-model{
+   
+    border-radius: 0px 0px 15px 15px;
+    width: 130px;
+    height: 30px;
+    margin: auto;
+    background-color: white;
+    
+}
+.content{
+    padding: 10px;
+    height: 100%;
+    padding-top: 20px;   
+}
+.box
+{
+   margin: 0px -6px;
+    padding-bottom: 30px;    
+}
+.box-model
+{
+    width: 145px;
+    height: 48px;
+    display: inline-block;
+    margin: 9px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(0,0,0,0.3);
+}
+.box-model:hover
+{
+    cursor: pointer;
+    opacity: 0.5;
+    
+}
+.img-model
+{
+    width: 145px;
+    height: 145px;
+    display: inline-block;
+    margin: 9px;
+    box-shadow: 0px 0px 10px rgb(0,0,0,0.3);
+    background-color: white;
+    border-radius: 5px;
+}
+.img-model:hover
+{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.btn-one{
+     background-image: linear-gradient(to right, #e36cd9 , #ff60ae);
+}
+.btn-two{
+     background-image: linear-gradient(to right, #8495ff , #00e2ff);
+}
+.btn-three{
+    background-image: linear-gradient(to right, #dd8eff , #9752ff);
+}
+.btn-four{
+    background-image: linear-gradient(to right, #24beb9 , #41e497);
+}
+
+.img-model h3{
+    color:black;
+}
+.img-pos
+{
+    padding-top: 10px;
+    padding-left: 35px;
+    padding-bottom: 10px;
+    align-content: center;
+    
+}

@@ -1,0 +1,145 @@
+.container
+{
+    width: 950px;
+    height: auto;
+    background-color: #d5d6e2;
+    margin: 50px auto;
+}
+.screen-view
+{
+     padding: 50px 80px;
+    
+}
+.screens
+{
+    background-color:white;
+    margin: 30px;
+    padding: 30px 15px;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3); 
+    display: inline-block;
+    vertical-align:top;
+    padding:30px;
+    width: 270px;
+    text-align: center;
+   
+}
+
+.img-main{
+    padding: 35px 75px;
+}
+.img-main img{
+    width: 100px;
+    
+}
+
+.img-continer img
+{
+    height: 100px;
+    width: 100px; 
+    margin: 20px 0px;
+}
+h1,h2,h3,h4,p
+{
+  
+    font-family:"Arial",sans-serif;
+    color:#5f5e5e;
+    margin: 0;
+    text-align: center;
+}
+h1
+{
+    margin-top: 20px;
+}
+h2{
+     margin: 5px 0pc;
+     font-size: 1.2em;
+}
+h4{
+  
+     font-size: 12px;
+     font-weight: bold;
+    
+}
+p{
+    color: #9a9a9a;
+    margin: 7px;
+    
+}
+
+
+.left-align
+{
+    float: left;
+    color:#c0c0c0;
+   
+}
+.left-align:hover
+{
+    cursor: pointer;
+    color: black;
+}
+.right-align:hover
+{
+    cursor: pointer;
+    color: black;
+}
+.right-align
+{
+   
+    float: right;
+    color:#405468;
+}
+.content
+{
+    align-content: center;
+    margin: 20px 0px 60px;    
+    
+}
+.range{
+    width: 100%;
+    height: 8px;
+    background: linear-gradient(to right, #e8cb39 0%,#e8cb39 50%,#000000 50%,#efeff4 50%,#efeff4 100%);
+    border-radius: 4px;
+    overflow: hidden;
+   }
+.range:hover
+{
+    cursor:pointer;
+}
+.range-btn
+{
+    height: 25px;
+    width: 25px;
+    margin-top: -8px;
+    margin-left: 120px;
+    background-color: gold;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.round-button 
+{   height: 47px;
+    width: 100%;
+    margin: 5px 0px;
+    border: 1.5px solid lightgray;
+    border-radius:28px;
+    background: white;
+}
+.round-button-active
+{
+    height: 47px;
+    width: 100%;
+    margin: 7px 0px;
+    border: 1.5px solid #f9da3d;
+    border-radius:28px;
+    color: black;
+    background-color:#f9da3d;
+}
+.round-button-active p{
+    color: black;
+}
+button:hover
+{
+    background-color:azure;
+    cursor: pointer;
+}
